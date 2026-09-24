@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment Variables & Local Overrides
+.env
+.env.local
+.env.*.local
+*.local
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Tooling / Cache Directories
+.eslintcache
+.oxlintcache
+.vite/
