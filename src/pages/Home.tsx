@@ -100,16 +100,22 @@ export default function Home({ activeTrack }: HomeProps) {
             index="01"
             title="Save the queue"
             caption="One tap snapshots the playing queue before it can vanish."
+            clipSrc="/clips/save-queue.webm"
+            alt="Clip of saving the YouTube Music queue"
           />
           <Shot
             index="02"
             title="Find it later"
             caption="Every archived session, listed and ready to replay."
+            clipSrc="/clips/archive-list.webm"
+            alt="Clip of browsing saved music session archives"
           />
           <Shot
             index="03"
             title="Restore as a playlist"
             caption="Turn a kept memory back into a private playlist."
+            clipSrc="/clips/restore-playlist.webm"
+            alt="Clip of restoring a session to a private playlist"
           />
         </div>
       </section>
